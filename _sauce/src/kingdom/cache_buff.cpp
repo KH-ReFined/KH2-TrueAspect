@@ -1,0 +1,3 @@
+#include "cache_buff.h"
+
+char* (*YS::CACHE_BUFF::SearchByName)(const char*, int) = SignatureScan<char*(*)(const char*, int)>("\x48\x89\x5C\x24\x08\x57\x48\x83\xEC\x20\x8B\xDA\x48\x8B\xF9\x45\x33\xC0\x4D\x85\xC0\x75\x09\x4C\x8B\x05\x00\x00\x00\x00", "xxxxxxxxxxxxxxxxxxxxxxxxxx????");

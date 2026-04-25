@@ -1,0 +1,9 @@
+title: Kingdom Hearts II - True Aspect Adjustment
+originalAuthor: TopazTK
+description: Allows for every single Aspect Ratio imaginable. [WIP]
+
+assets:
+- name: dll/KH2-TrueAspect.dll
+  method: copy
+  source:
+  - name: dll/KH2-TrueAspect.dll
